@@ -1,4 +1,5 @@
 # Django_tutorial_with_PostgreSQL
+prerequisite: PostgreSQL, Python
 ## 1. How to create Database in postgreSQL
 Install the PostgreSQL in [PostgreSQL official site](https://www.postgresql.org/).   
 Then, run the SQL Shell(psql) and enter password.   
