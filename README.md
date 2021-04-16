@@ -7,7 +7,6 @@ Command line will change into "postgres=#".
 1. Create Database(and Database for testing) and access
 ```
 CREATE DATABASE <databasename>;
-CREATE DATABASE <test_databasename>;
 \c <databasename>
 ```
 Command line will change into "<databasename>=#".    
@@ -15,10 +14,11 @@ Command line will change into "<databasename>=#".
 ```
 CREATE ROLE <username> with login password <password>;
 ```
-3. Set the Database(Optional)
+3. Set the User
 ```
-ALTER role <username> SET client_encoding to 'utf-8';   
-ALTER role <username> SET timezone to 'Asia/Seoul';   
+ALTER ROLE <username> CREATEDB
+ALTER ROLE <username> SET client_encoding to 'utf-8';   
+ALTER ROLE <username> SET timezone to 'Asia/Seoul';   
 ```
 4. Grant privileges to user   
 ```
