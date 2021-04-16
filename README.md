@@ -9,7 +9,8 @@ Command line will change into "postgres=#".
 CREATE DATABASE <databasename>;
 \c <databasename>
 ```
-Command line will change into "<databasename>=#".    
+Command line will change into "<databasename>=#".     
+  
 2. Create User
 ```
 CREATE ROLE <username> with login password <password>;
