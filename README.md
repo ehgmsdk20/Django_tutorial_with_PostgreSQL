@@ -4,13 +4,13 @@ prerequisite: PostgreSQL, Python
 Install the PostgreSQL in [PostgreSQL official site](https://www.postgresql.org/).   
 Then, run the SQL Shell(psql) and enter password.   
 Command line will change into "postgres=#".    
-1. Create Database and access
-
+1. Create Database(and Database for testing) and access
 ```
-CREATE DATABASE <databasename_used_in_Django>;
-\c <databasename_used_in_Django>
+CREATE DATABASE <databasename>;
+CREATE DATABASE <test_databasename>;
+\c <databasename>
 ```
-Command line will change into "<databasename_used_in_Django>=#".    
+Command line will change into "<databasename>=#".    
 2. Create User
 ```
 CREATE ROLE <username> with login password <password>;
