@@ -33,7 +33,7 @@ GRANT all privileges ON database <databasename> to <username>;
 GRANT all privileges ON database <test_databasename> to <username>;
 ``` 
 
-# 3. How to use
+## 3. How to use
 You can download my project through the command.   
 ```
 https://github.com/ehgmsdk20/Django_tutorial_with_PostgreSQL.git           
