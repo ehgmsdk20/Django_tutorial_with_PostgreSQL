@@ -30,7 +30,6 @@ ALTER ROLE <username> SET timezone to 'Asia/Seoul';
 4. Grant privileges to user   
 ```
 GRANT all privileges ON database <databasename> to <username>;
-GRANT all privileges ON database <test_databasename> to <username>;
 ``` 
 
 ## 3. How to use
